@@ -1,0 +1,20 @@
+{
+  "name": "mongoose-timestamps",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test istanbul test ./node_modules/mocha/bin/_mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:phillee/mongoose-timestamps.git"
+  },
+  "author": "Philip Lee",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mongoose": "~3.8.15",
+    "mocha": "~1.21.4",
+    "chai": "~1.9.1"
+  }
+}
